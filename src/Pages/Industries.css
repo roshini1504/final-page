@@ -1,0 +1,77 @@
+/* Industries.css */
+
+/* Heading styling */
+.industries-heading {
+  margin-top: 65px; /* Add top margin to the heading */
+}
+
+/* Basic card styling */
+.industry-card {
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 0.5rem;
+  border: 1px solid #dee2e6;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  padding: 1rem; /* Add padding inside the card */
+  height: 300px; /* Set card height */
+  max-width: 100%; /* Ensure card width fits within container */
+}
+
+/* Card hover effect */
+.industry-card:hover {
+  transform: scale(1.05);
+  background-color: #f8f9fa;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon styling */
+.industry-card .bi {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 1rem; /* Space between icon and title */
+}
+
+/* Title styling */
+.industry-card .card-title {
+  margin-bottom: 0.5rem; /* Space between title and description */
+  font-size: 1.25rem; /* Adjust font size as needed */
+}
+
+/* Text styling */
+.industry-card .card-text {
+  margin: 0; /* Remove default margin */
+  font-size: 1rem; /* Adjust font size as needed */
+  line-height: 1.5; /* Improve readability */
+}
+
+/* Ensure card content does not overflow */
+.industry-card * {
+  box-sizing: border-box;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  /* Styles for large screens */
+}
+
+@media (max-width: 992px) {
+  /* Styles for medium screens */
+}
+
+@media (max-width: 768px) {
+  /* Styles for small screens */
+  .industry-card .bi {
+    font-size: 1.5rem; /* Adjust icon size */
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for extra small screens */
+  .industry-card .bi {
+    font-size: 1.25rem; /* Further adjust icon size */
+  }
+}

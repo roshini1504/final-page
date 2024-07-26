@@ -1,0 +1,41 @@
+/* src/Pages/Home.css */
+
+/* Remove any default margin/padding on body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* Remove any margin from navbar */
+  .navbar {
+    margin-bottom: 0; /* Ensure there's no space below the navbar */
+  }
+  
+  /* Style the carousel to fill the viewport */
+  .carousel {
+    margin-bottom: 0; /* Remove space below the carousel */
+  }
+  
+  .carousel-item img {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  /* Adjust the caption position if necessary */
+  .carousel-caption {
+ 
+    top:20%;
+  }
+  
+  /* Ensure there is no extra space above #why-us section */
+  #why-us {
+    margin-top: 0; /* Remove extra margin at the top */
+    padding-top:40px; /* Adjust this value based on the height of your navbar */
+}
+
+
+  

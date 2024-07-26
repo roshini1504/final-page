@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding: 50px 0;
+  min-height: 100vh;
+  margin-top: 0; /* Remove top margin */
+}
+
+.content {
+  padding-top: 80px; /* Adjust this value based on the height of your navbar */
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#why-us {
+  margin-top: 0; /* Ensure no gap between Why Us and Industries */
+  padding-top: 0;
+}

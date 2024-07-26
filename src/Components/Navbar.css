@@ -1,0 +1,32 @@
+/* Initial transparent state */
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.89);
+  transition: background-color 0.3s ease;
+}
+
+/* Scrolled state */
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+/* Navbar link color */
+.nav-link-blue {
+  color: rgba(139, 197, 235, 0.74);
+  font-size: 1.5rem; /* Increase font size */
+  margin-right: 1rem; /* Add space between links */
+}
+
+/* Navbar link hover color */
+.nav-link-blue:hover {
+  color: white; /* Change color to white on hover */
+}
+
+/* Navbar link hover color when scrolled */
+.navbar-scrolled .nav-link-blue:hover {
+  color: rgb(43, 62, 114); /* Ensure it stays white when scrolled */
+}
+
+/* Adjust margin as needed */
+.me-auto {
+  margin-left: auto;
+}
