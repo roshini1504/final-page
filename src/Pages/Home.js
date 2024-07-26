@@ -61,7 +61,7 @@ function Home() {
       <div className="container-fluid" id="why-us">
         <div className="row">
           <div className="col-md-12 text-center">
-            <h1 className="display-4" style={{ marginTop: '50px' }}>Why Us?</h1>
+            <h1 className="display-4" style={{ marginTop: '90px' }}>Why Us?</h1>
           </div>
         </div>
         <div className="row">
@@ -87,7 +87,7 @@ function Home() {
             </p>
           </div>
           <div className="col-md-4 col-sm-12">
-            <Card style={{ border: 'none', marginTop: '70px' }}>
+            <Card style={{ border: 'none', marginTop: '10px' }}>
               <Card.Body>
                 <Button
                   style={{
@@ -112,7 +112,7 @@ function Home() {
                 </Button>
                 <Collapse in={hoverOpen}>
                   <Card.Text style={{ backgroundColor: hoverOpen ? 'brown' : 'whitesmoke', color: hoverOpen ? 'whitesmoke' : 'black', fontSize: 20 }} className="text-center">
-                    We believe that the planning and execution of the product should have a high priority over effortless execution for a successful approach of solving the real-time problems with utmost analysis.
+                    We believe that the planning and execution of the product should have a high priority over effortless execution for a successful approach of solving the real-time problems with utmost analysis.enabling them to provide valuable insights, guidance, and support. Learn how these experts play a vital role in problem-solving within organisations.Just like a Captain can read the sea deeper, a Subject Matter Expert (SME)  has unique knowledge and expertise in the field in which he specialises. They are the first-choice ones who offer a solution, advice, counselling, and information.
                   </Card.Text>
                 </Collapse>
                 <div style={{ marginTop: 20 }}>
@@ -150,7 +150,9 @@ Tech Expertise
     Our team consists of expert and well-known industry leaders
     with a focused version of implementing the high-quality
     solution deployments and finding the best talent for
-    outsourcing and working with leading companies.
+    outsourcing and working with leading companies.A subject matter expert, often referred to as an SME, has deep knowledge of a particular topic. Within your business, they’re the authority on the subject. They’re the go-to person if someone has questions. And as such, the SME role is incredibly valuable. But it can also be complicated.
+
+If you’re a subject matter expert, it’s probably safe to say that your time is in high demand. Your niche knowledge is needed by many departments.
   </Card.Text>
 </Collapse>
 
@@ -189,7 +191,7 @@ Tech Expertise
       Our work has been recognised and had been vouched by
       several industry experts and have been thriving over the
       best-in-class service providing and improved service
-      performance over the years.
+      performance over the years.Many people who are energetic about execution tend to jump into activities and take action before they get organized, create a plan, or connect what they’re doing to the strategy of the organization. Having the discipline to organize people, assemble resources, and then generate a plan that others can commit to will collectively improve execution. So will making clear who is doing what; we have learned that when everyone is collectively responsible, that no one is responsible.
     </Card.Text>
   </Collapse>
   </div>
