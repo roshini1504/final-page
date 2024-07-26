@@ -152,7 +152,7 @@ Tech Expertise
     solution deployments and finding the best talent for
     outsourcing and working with leading companies.A subject matter expert, often referred to as an SME, has deep knowledge of a particular topic. Within your business, they’re the authority on the subject. They’re the go-to person if someone has questions. And as such, the SME role is incredibly valuable. But it can also be complicated.
 
-If you’re a subject matter expert, it’s probably safe to say that your time is in high demand. Your niche knowledge is needed by many departments.
+If you’re a subject matter expert.
   </Card.Text>
 </Collapse>
 
@@ -191,7 +191,7 @@ If you’re a subject matter expert, it’s probably safe to say that your time 
       Our work has been recognised and had been vouched by
       several industry experts and have been thriving over the
       best-in-class service providing and improved service
-      performance over the years.Many people who are energetic about execution tend to jump into activities and take action before they get organized, create a plan, or connect what they’re doing to the strategy of the organization. Having the discipline to organize people, assemble resources, and then generate a plan that others can commit to will collectively improve execution. So will making clear who is doing what; we have learned that when everyone is collectively responsible, that no one is responsible.
+      performance over the years.Many people who are energetic about execution tend to jump into activities and take action before they get organized, create a plan, or connect what they’re doing to the strategy of the organization. Having the discipline to organize people, assemble resources, and then generate a plan that others can commit to will collectively improve execution.
     </Card.Text>
   </Collapse>
   </div>
