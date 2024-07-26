@@ -41,7 +41,7 @@ function Home() {
             src={bg2} alt="slide 2"/>
           <Carousel.Caption>
             <div className="carousel-caption">
-              <h3>Innovative Software For Evolving Businesses</h3>
+              <h3 >Innovative Software For Evolving Businesses</h3>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -50,9 +50,9 @@ function Home() {
           <img
             className="d-block w-100"
             src={bg3} alt="slide 3"/>
-          <Carousel.Caption style={{ marginLeft: '150px' }}>
-            <div className="carousel-caption">
-              <h3>Simplifying complexity, Amplifying Potential</h3>
+          <Carousel.Caption >
+            <div className="carousel-captions">
+              <h4>Simplifying complexity, Amplifying Potential</h4>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
